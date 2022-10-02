@@ -148,3 +148,7 @@ color: gray;
 .prayer-times .box .pray-time small{
     margin-right: 5px;
 }
+.prayer-times .box .bi{
+    color: #EEEEEE;
+    font-weight: bold;
+}
