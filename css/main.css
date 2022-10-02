@@ -97,13 +97,14 @@ color: gray;
 }
 .box{
     
-    background: var(--s2-color);
+    background: var(--first-color);
       width: 100px;
       height: 100px;
       position: relative;
       text-align: center;
       z-index: 1;
       border-radius: 5px;
+      color: var(--s2-color);
 }
 .box.active,
 .box.active::before,
@@ -120,7 +121,7 @@ color: gray;
   left: 0;
   height: 100px;
   width: 100px;
-  background: var(--s2-color);
+  background: var(--first-color);
   z-index: -1;
   border-radius: 5px;
 }
